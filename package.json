@@ -1,0 +1,21 @@
+{
+  "name": "fullstack-graphql-vue",
+  "version": "1.0.0",
+  "description": "Lab to learn how to make a GraphQL Server and a Vue.js client",
+  "main": "index.js",
+  "scripts": {
+    "push": "git ci -am \"changes in: $(git diff --name-only | tr  '\n' ' ')\"; git push",
+    "push-all": "git submodule foreach 'npm run push'; npm run  push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crguezl/fullstack-graphql-vue.git"
+  },
+  "keywords": [],
+  "author": "Casiano Rodriguez Leon <crguezl@ull.edu.es> (https://crguezl.github.io/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crguezl/fullstack-graphql-vue/issues"
+  },
+  "homepage": "https://github.com/crguezl/fullstack-graphql-vue#readme"
+}
